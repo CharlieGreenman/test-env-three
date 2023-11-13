@@ -2,6 +2,20 @@
   (sideNavToggle)="sideNavToggle()"
 ></test-env-three-global-header>
 <div class="wrapper">
-  <div class="container"></div>
+  <div class="container">
+    <test-env-three-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav>
+        <a
+          mat-list-item
+          routerLinkActive="active-link"
+          routerLink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </test-env-three-global-sidenav>
+  </div>
 </div>
 <test-env-three-global-footer> </test-env-three-global-footer>
