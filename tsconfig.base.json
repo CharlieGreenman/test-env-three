@@ -20,6 +20,9 @@
     "paths": {
       "@test-env-three/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@test-env-three/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
