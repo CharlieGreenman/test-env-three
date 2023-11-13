@@ -23,6 +23,9 @@
       ],
       "@test-env-three/common/ui": [
         "libs/common/ui/src/index.ts"
+      ],
+      "@test-env-three/home": [
+        "libs/home/src/index.ts"
       ]
     }
   },
